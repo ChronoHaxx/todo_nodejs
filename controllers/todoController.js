@@ -1,6 +1,6 @@
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
-var secret_key = require('./secret_key.js')
+var secret_key = require('../secret_key.js')
 //connect to database
 mongoose.connect(secret_key);
 
